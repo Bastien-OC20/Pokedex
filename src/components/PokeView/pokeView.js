@@ -3,7 +3,7 @@ import './pokeView.css'
 
 
 const PokeView = ({ pokemon, pokeClass, }) => {
-    const { name, sprite, type, height, weight, ability, moves, icon } = pokemon
+    const { name, sprite, type, height, weight, ability, moves } = pokemon
     return(
         <section className="poke-view">
             <img src={sprite} className="poke-image" alt="poke"/>
